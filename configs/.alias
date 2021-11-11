@@ -1,0 +1,15 @@
+# Neovim
+alias v="nvim"
+
+# Git
+alias g="git"
+alias gs="git status"
+alias gam="git add . && git commit -m"
+
+# General
+alias x+="chmod +x"
+
+# cli apps
+# Show hidden and details
+alias n="nnn -dH"
+alias lzg="lazygit"
