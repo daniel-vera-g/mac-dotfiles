@@ -9,6 +9,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.alias
 source $HOME/.profile
+source $HOME/.local_aliases
 source $HOME/mac-dotfiles/configs/.zoxide_config
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
