@@ -6,7 +6,8 @@ eval "$(zoxide init zsh)"
 
 
 # Language stuff
-export PATH=$PATH:/Users/danielvg/.local/bin
+export PATH=$PATH:$HOME/.local/bin
 export EDITOR="lvim"
 export TERM=xterm
+export PATH=$PATH:$HOME/go/bin
 
