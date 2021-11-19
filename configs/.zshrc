@@ -20,4 +20,10 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='nvim'
 fi
- alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# To get tmux colors working properly
+export TERM="xterm-256color"
