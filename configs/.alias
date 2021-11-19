@@ -1,5 +1,6 @@
 # Neovim
 alias v="nvim"
+alias lv="lvim"
 
 # Git
 alias g="git"
@@ -8,8 +9,19 @@ alias gam="git add . && git commit -m"
 
 # General
 alias x+="chmod +x"
+alias cppt="pwd | pbcopy"
 
 # cli apps
 # Show hidden and details
 alias n="nnn -dH"
 alias lzg="lazygit"
+
+# Tmux
+alias ta="tmux attach -t"
+alias tns="tmux new-session -s"
+
+# Docker
+alias dk="docker"
+alias dkps="docker ps"
+alias dkpsa="docker ps -a"
+
