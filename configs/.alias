@@ -6,6 +6,8 @@ alias lv="lvim"
 alias g="git"
 alias gs="git status"
 alias gam="git add . && git commit -m"
+alias gc="git checkout"
+alias gcb="git checkout -b"
 
 # General
 alias x+="chmod +x"
@@ -15,6 +17,7 @@ alias cppt="pwd | pbcopy"
 # Show hidden and details
 alias n="nnn -dH"
 alias lzg="lazygit"
+alias codenx="code --disable-extensions"
 
 # Tmux
 alias ta="tmux attach -t"
@@ -25,3 +28,5 @@ alias dk="docker"
 alias dkps="docker ps"
 alias dkpsa="docker ps -a"
 
+# Compose
+alias c="docker-compose"
