@@ -17,6 +17,7 @@ alias cppt="pwd | pbcopy"
 # Show hidden and details
 alias n="nnn -dH"
 alias lzg="lazygit"
+alias codenx="code --disable-extensions"
 
 # Tmux
 alias ta="tmux attach -t"
