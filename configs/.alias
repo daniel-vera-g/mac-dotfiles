@@ -15,6 +15,7 @@ alias cppt="pwd | pbcopy"
 # Show hidden and details
 alias n="nnn -dH"
 alias lzg="lazygit"
+alias lx="exa --long --header"
 
 # Tmux
 alias ta="tmux attach -t"
@@ -24,4 +25,3 @@ alias tns="tmux new-session -s"
 alias dk="docker"
 alias dkps="docker ps"
 alias dkpsa="docker ps -a"
-
