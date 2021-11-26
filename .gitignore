@@ -1,3 +1,4 @@
 automatic_backups/**
 **/sessions
 **/automatic_backups
+./.DS_Store
