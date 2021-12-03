@@ -7,6 +7,7 @@ plugins=(git zsh-autosuggestions docker docker fd ripgrep fzf-tab)
 
 # Source config files & co
 source $ZSH/oh-my-zsh.sh
+source $HOME/mac-dotfiles/scripts/quitcd.bash_zsh
 source $HOME/.alias
 source $HOME/.profile
 source $HOME/.local_aliases
