@@ -12,17 +12,23 @@ alias gcb="git checkout -b"
 # General
 alias x+="chmod +x"
 alias cppt="pwd | pbcopy"
+alias refresh="source ~/.zshrc"
 
 # cli apps
-# Show hidden and details
-alias n="nnn -dH"
 alias lzg="lazygit"
 alias lx="exa --long --header"
 alias codenx="code --disable-extensions"
+alias cat="bat"
 
 # Tmux
-alias ta="tmux attach -t"
-alias tns="tmux new-session -s"
+alias t="tmux"
+alias ta="t a -t"
+alias tls="t ls"
+alias tn="t new -t"
+alias tmuxKillS="tmux kill-session -t"
+alias tmuxRenS="tmux rename-session -t"
+alias tmuxNewSess="tmux new-session -s"
+alias tmuxNewSessN="tmux new-session -t"
 
 # Docker
 alias dk="docker"
@@ -30,3 +36,12 @@ alias dkps="docker ps"
 alias dkpsa="docker ps -a"
 # Compose
 alias c="docker-compose"
+
+# Utils
+alias simpleWebServer="python3  -m http.server 8080 --bind 127.0.0.1"
+alias ten='trans en:de'
+alias tde='trans de:en'
+
+# TODO
+# alias caff60='caffeinate -d -t  $(expr 60 \* 60)'
+# alias ejectAll="osascript -e 'tell application 'Finder' to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)'"

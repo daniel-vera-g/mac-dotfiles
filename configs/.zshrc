@@ -1,28 +1,22 @@
-source ~/.profile
+# Export relevant stuff first
+source $HOME/.profile
 
 # Or godzilla
 ZSH_THEME="spaceship"
 
-plugins=(git zsh-autosuggestions docker docker fd ripgrep fzf-tab)
+plugins=(git zsh-autosuggestions docker fd ripgrep fzf-tab)
 
 # Source config files & co
 source $ZSH/oh-my-zsh.sh
-source $HOME/mac-dotfiles/scripts/quitcd.bash_zsh
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
 source $HOME/.alias
-source $HOME/.profile
 source $HOME/.local_aliases
+source $HOME/.functions
+source $HOME/mac-dotfiles/scripts/quitcd.bash_zsh
 source $HOME/mac-dotfiles/configs/.zoxide_config
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='lvim'
-else
-  export EDITOR='nvim'
-fi
-
-alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -44,3 +38,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval $(thefuck --alias)
