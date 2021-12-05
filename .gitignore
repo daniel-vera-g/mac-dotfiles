@@ -1,4 +1,5 @@
 automatic_backups/**
 **/sessions
 **/automatic_backups
-./.DS_Store
+.DS_Store
+userstate.cbor
