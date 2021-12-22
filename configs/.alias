@@ -45,3 +45,6 @@ alias tde='trans de:en'
 # TODO
 # alias caff60='caffeinate -d -t  $(expr 60 \* 60)'
 # alias ejectAll="osascript -e 'tell application 'Finder' to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)'"
+
+# K8s
+alias k=kubectl
