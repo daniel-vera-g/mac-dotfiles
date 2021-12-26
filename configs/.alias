@@ -1,6 +1,9 @@
 # Neovim
 alias v="nvim"
 alias lv="lvim"
+# Open LunarVim and ...
+alias lvf='lvim "+Telescope find_files"' # ...instantly open fuzzy finder
+alias lvr="lvim \"+lua require('persistence').load()\"" # ...load last session
 
 # Git
 alias g="git"
