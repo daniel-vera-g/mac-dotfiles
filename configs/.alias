@@ -12,10 +12,11 @@ alias gam="git add . && git commit -m"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 
-# General
+# General aka. system
 alias x+="chmod +x"
 alias cppt="pwd | pbcopy"
 alias refresh="source ~/.zshrc"
+alias so="source"
 
 # cli apps
 alias lzg="lazygit"
