@@ -26,3 +26,11 @@ fo() {
     [ "$key" = ctrl-o ] && open "$file" || ${EDITOR:-vim} "$file"
   fi
 }
+
+# Display notification on macOS
+# Usage: notify [message] [title]
+notify() {
+  if [ "$(uname)" = "Darwin" ]; then
+    osascript -e "display notification \"$1\" with title \"$2\""
+  fi
+}
