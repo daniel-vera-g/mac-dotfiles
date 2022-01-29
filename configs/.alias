@@ -11,6 +11,7 @@ alias gs="git status"
 alias gam="git add . && git commit -m"
 alias gc="git checkout"
 alias gcb="git checkout -b"
+alias gprg="git push gitlab"
 
 # General aka. system
 alias x+="chmod +x"
@@ -20,8 +21,7 @@ alias so="source"
 
 # cli apps
 alias lzg="lazygit"
-alias lx="exa --long --header"
-alias codenx="code --disable-extensions"
+alias l="exa --long --header -a" # Or lx?
 alias cat="bat"
 
 # Tmux
@@ -38,17 +38,28 @@ alias tmuxNewSessN="tmux new-session -t"
 alias dk="docker"
 alias dkps="docker ps"
 alias dkpsa="docker ps -a"
-# Compose
+# ... Compose
 alias c="docker-compose"
 
 # Utils
 alias simpleWebServer="python3  -m http.server 8080 --bind 127.0.0.1"
 alias ten='trans en:de'
 alias tde='trans de:en'
-
-# TODO
-# alias caff60='caffeinate -d -t  $(expr 60 \* 60)'
-# alias ejectAll="osascript -e 'tell application 'Finder' to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)'"
+alias codenx="code --disable-extensions"
+alias caff60='caffeinate -d -t  $(expr 60 \* 60)' #  
+# TODO: alias ejectAll="osascript -e 'tell application 'Finder' to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)'"
 
 # K8s
 alias k=kubectl
+
+# brew
+alias brupd="brew update"
+alias brupg="brew upgrade"
+alias bro="brew outdated"
+alias bri="brew install"
+alias brl="brew list"
+
+# tree
+alias tree1="tree -L 1"
+alias tree2="tree -L 2"
+alias tree3="tree -L 3"
