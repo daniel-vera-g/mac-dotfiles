@@ -1,9 +1,6 @@
 # Fix slow paste with zsh-autosuggestions
 DISABLE_MAGIC_FUNCTIONS="true"
 
-# To get tmux colors working properly
-export TERM="xterm-256color"
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -34,4 +31,3 @@ export FZF_ALT_C_COMMAND="fd -t d . $HOME"
 # https://wezfurlong.org/wezterm/faq.html#lang-and-locale
 # https://github.com/tmux/tmux/wiki/FAQ#how-do-i-use-utf-8
 export LANG=en_US.UTF-8
-

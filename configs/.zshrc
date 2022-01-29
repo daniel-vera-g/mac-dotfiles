@@ -20,6 +20,8 @@ source $HOME/mac-dotfiles/configs/.zoxide_config
 
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# To get tmux colors working properly
+export TERM="xterm-256color"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
