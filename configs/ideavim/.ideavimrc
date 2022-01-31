@@ -1,0 +1,40 @@
+" General editor config:
+set relativenumber number
+set ignorecase
+set smartcase
+set scrolloff=3 " 3 lines above/below cursor when scrolling
+let mapleader = ","
+
+" Emulated Plugins:
+set surround
+set commentary
+set highlightedyank
+set NERDTree
+
+" Vim <-> System related configs:
+set clipboard+=unnamed " Copy to system clipboard as well
+
+" Jetbrains related:
+
+set ideajoin " Use Idea to join lines smartly
+set multiple-cursors  " Multiple cursors support
+nmap <leader>T :action ActivateTerminalToolWindow<cr>  " Terminal
+nmap <leader>v :action Tool_External Tools_gvim<cr> " External GVim
+
+" Search
+nmap <leader>/ :action Find<cr>
+nmap <leader>\ :action FindInPath<cr>
+
+" Building, Running and Debugging
+nmap ,c :action CompileDirty<cr>
+nmap ,r :action Run<cr>
+nmap ,R :action RunAnything<cr>
+nmap ,b :action Debug<cr>
+nmap ,c :action RunClass<cr>
+nmap ,d :action DebugClass<cr>
+nmap ,t :action RerunTests<cr>
+nmap ,T :action RerunFailedTests<cr>
+
+"---"
+" Inspiration from: https://github.com/Valloric/dotfiles/blob/master/intellij/ideavimrc
+"---"

@@ -25,3 +25,9 @@ export FZF_DEFAULT_COMMAND='fd . --type f --hidden --follow --exclude .git ~'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd -t d . $HOME"
 
+# LOCALE needed for wezterm <-> tmux
+# See:
+# https://github.com/tmux/tmux/issues/328#issuecomment-251986075
+# https://wezfurlong.org/wezterm/faq.html#lang-and-locale
+# https://github.com/tmux/tmux/wiki/FAQ#how-do-i-use-utf-8
+export LANG=en_US.UTF-8
