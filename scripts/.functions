@@ -27,6 +27,14 @@ fo() {
   fi
 }
 
+# Display notification on macOS
+# Usage: notify [message] [title]
+notify() {
+  if [ "$(uname)" = "Darwin" ]; then
+    osascript -e "display notification \"$1\" with title \"$2\""
+  fi
+}
+
 # mkb to mp4 with ffmpeg
 mkb2mp4() {
   ffmpeg -i "$1" -codec copy "${1%.mkv}.mp4"
