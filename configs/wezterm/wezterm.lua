@@ -5,7 +5,7 @@ return {
 
 	-- Font related
 	font = wezterm.font("Hack Nerd Font"),
-	font_size = 18,
+	font_size = 21,
 
 	-- For german keyboard layout. Refer to:
 	-- https://github.com/wez/wezterm/issues/410#issuecomment-770507001
