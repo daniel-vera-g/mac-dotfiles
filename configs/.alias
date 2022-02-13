@@ -46,8 +46,8 @@ alias simpleWebServer="python3  -m http.server 8080 --bind 127.0.0.1"
 alias ten='trans en:de'
 alias tde='trans de:en'
 alias codenx="code --disable-extensions"
-alias caff60='caffeinate -d -t  $(expr 60 \* 60)' #  
-# TODO: alias ejectAll="osascript -e 'tell application 'Finder' to eject (every disk whose ejectable is true and local volume is true and free space is not equal to 0)'"
+alias caffD='caffeinate -d'
+alias caff60='caffeinate -d -t  3600'
 
 # K8s
 alias k=kubectl
