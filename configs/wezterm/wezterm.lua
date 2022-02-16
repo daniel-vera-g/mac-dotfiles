@@ -10,9 +10,13 @@ return {
 	-- For german keyboard layout. Refer to:
 	-- https://github.com/wez/wezterm/issues/410#issuecomment-770507001
 	-- https://wezfurlong.org/wezterm/config/keys.html#macos-left-and-right-option-key
+	-- Use ~ on properly on german keyboard layout.
 	send_composed_key_when_left_alt_is_pressed = true,
+	send_composed_key_when_right_alt_is_pressed = false,
+	use_ime = false,
+	-- Don't wait for second keypress to send the composed key.
 	use_dead_keys = false,
-	use_ime = true,
+
 	-- Also for tmux & co
 	mux_output_parser_buffer_size = 1000000,
 
