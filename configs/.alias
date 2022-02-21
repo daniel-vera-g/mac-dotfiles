@@ -38,8 +38,12 @@ alias tmuxNewSessN="tmux new-session -t"
 alias dk="docker"
 alias dkps="docker ps"
 alias dkpsa="docker ps -a"
+alias dklf="docker logs -f"
+
 # ... Compose
 alias c="docker-compose"
+alias cup="c up"
+alias cdo="c down"
 
 # Utils
 alias simpleWebServer="python3  -m http.server 8080 --bind 127.0.0.1"
