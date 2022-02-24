@@ -13,9 +13,9 @@ export PATH=$PATH:$HOME/go/bin
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='lvim'
-else
   export EDITOR='nvim'
+else
+  export EDITOR='lvim'
 fi
 export TERM=xterm
 
