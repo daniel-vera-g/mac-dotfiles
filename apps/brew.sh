@@ -8,3 +8,4 @@
     brew install --cask --appdir=/Applications megacmd && \
     brew install neovim --HEAD && \
     brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font && \ # Nerdfonts
+    brew tap wez/wezterm && brew install --cask wez/wezterm/wezterm
