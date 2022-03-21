@@ -13,7 +13,6 @@ return {
 	-- Use ~ on properly on german keyboard layout.
 	send_composed_key_when_left_alt_is_pressed = true,
 	send_composed_key_when_right_alt_is_pressed = false,
-	use_ime = false,
 	-- Don't wait for second keypress to send the composed key.
 	use_dead_keys = false,
 
