@@ -36,6 +36,7 @@ notify() {
 }
 
 # mkb to mp4 with ffmpeg
+# See: https://askubuntu.com/questions/396883/how-to-simply-convert-video-files-i-e-mkv-to-mp4
 mkb2mp4() {
   ffmpeg -i "$1" -codec copy "${1%.mkv}.mp4"
 }
