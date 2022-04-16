@@ -5,6 +5,7 @@ alias lv="lvim"
 alias lvf='lvim "+Telescope find_files"' # ...instantly open fuzzy finder
 alias lvr="lvim \"+lua require('persistence').load()\"" # ...load last session
 alias lvt="lvim *todo*" # ...open todo files
+alias lvmd="lvim *.md"
 alias lvu="lvim +LvimUpdate +PackerUpdate +q"
 
 # Git
