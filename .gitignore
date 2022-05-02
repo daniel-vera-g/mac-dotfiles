@@ -3,3 +3,5 @@ automatic_backups/**
 **/automatic_backups
 .DS_Store
 userstate.cbor
+project_nvim
+nvim

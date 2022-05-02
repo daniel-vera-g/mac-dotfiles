@@ -7,17 +7,18 @@ return {
 	font = wezterm.font("Hack Nerd Font"),
 	font_size = 21,
 
-	-- For german keyboard layout. Refer to:
+	-- For German keyboard layout. Refer to:
 	-- https://github.com/wez/wezterm/issues/410#issuecomment-770507001
 	-- https://wezfurlong.org/wezterm/config/keys.html#macos-left-and-right-option-key
-	-- Use ~ on properly on german keyboard layout.
+	-- Use ~ on properly on German keyboard layout.
 	send_composed_key_when_left_alt_is_pressed = true,
 	send_composed_key_when_right_alt_is_pressed = false,
-	use_ime = false,
-	-- Don't wait for second keypress to send the composed key.
-	use_dead_keys = false,
 
-	-- Also for tmux & co
+	-- Don't wait for second key press to send the composed key.
+	-- TODO test in future whether dead keys works again...
+	-- use_dead_keys = false,
+
+	-- Also for Tmux & co
 	mux_output_parser_buffer_size = 1000000,
 
 	-- No padding on the sides
