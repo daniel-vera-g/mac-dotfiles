@@ -1,0 +1,9 @@
+*/node_modules/*
+.cache/*
+.cargo/*
+.conda/*
+Bin/*
+go/*
+.Trash/
+Library/
+Pictures/Photos*
