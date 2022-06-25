@@ -21,3 +21,7 @@ ln -sfv $PWD/configs/wezterm/ ~/.config/
 ln -sfv $PWD/configs/ncspot ~/.config/
 
 # TODO cp lazygit config manually as it needs root access
+
+# Scripts
+
+ln -sfv $PWD/scripts/lvim-gui ~/.local/bin/
