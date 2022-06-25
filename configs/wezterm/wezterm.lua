@@ -4,7 +4,7 @@ return {
 	default_cwd = os.getenv("HOME") .. "/Downloads",
 
 	-- Font related
-	font = wezterm.font("Hack Nerd Font"),
+	font = wezterm.font("JetBrainsMono Nerd Font"),
 	font_size = 21,
 
 	-- For German keyboard layout. Refer to:
