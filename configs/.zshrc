@@ -4,7 +4,7 @@ source $HOME/.profile
 # Or godzilla
 ZSH_THEME="spaceship"
 
-plugins=(git zsh-autosuggestions docker fd ripgrep fzf-tab)
+plugins=(git zsh-autosuggestions docker fd ripgrep fzf-tab terraform)
 
 # Source config files & co
 source $ZSH/oh-my-zsh.sh
