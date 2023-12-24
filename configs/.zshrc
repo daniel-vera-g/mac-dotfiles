@@ -13,8 +13,8 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 source $HOME/.alias
 source $HOME/.local_aliases
 source $HOME/.functions
-source $HOME/mac-dotfiles/scripts/quitcd.bash_zsh
-source $HOME/mac-dotfiles/configs/.zoxide_config
+source $HOME/workspace/private-configs/mac-dotfiles/scripts/quitcd.bash_zsh
+source $HOME/workspace/private-configs/mac-dotfiles/configs/.zoxide_config
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -38,7 +38,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
