@@ -4,7 +4,7 @@ source $HOME/.profile
 # Or godzilla
 ZSH_THEME="spaceship"
 
-plugins=(git zsh-autosuggestions docker fd ripgrep fzf-tab)
+plugins=(git zsh-autosuggestions docker fzf-tab)
 
 # Source config files & co
 source $ZSH/oh-my-zsh.sh
@@ -44,3 +44,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+eval "$(github-copilot-cli alias -- "$0")"
+export SPARK_HOME="/opt/homebrew/Cellar/apache-spark/3.5.0/libexec/"
+export PATH="/opt/homebrew/opt/swagger-codegen@2/bin:$PATH"
