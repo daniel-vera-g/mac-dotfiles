@@ -4,7 +4,7 @@
 ln -sfv $PWD/configs/.zshrc ~
 ln -sfv $PWD/configs/.alias ~
 ln -sfv $PWD/configs/.profile ~
-ln -sfv $PWD/configs/ideavim/.ideavimrc ~
+# ln -sfv $PWD/configs/ideavim/.ideavimrc ~
 
 ln -sfv $PWD/scripts/.functions ~
 
@@ -24,4 +24,4 @@ ln -sfv $PWD/configs/ncspot ~/.config/
 
 # Scripts
 
-ln -sfv $PWD/scripts/lvim-gui ~/.local/bin/
+# ln -sfv $PWD/scripts/lvim-gui ~/.local/bin/
