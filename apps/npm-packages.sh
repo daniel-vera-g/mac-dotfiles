@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-npm i -g prettier eslint prettier commitizen
+npm i -g eslint prettier commitizen
